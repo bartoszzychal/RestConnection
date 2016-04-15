@@ -33,6 +33,7 @@ Next step it's creating Object with Jackson Annotation like that:
 	}
 
 Now you can create parametrized JSONRestConnection like:
-RestConnection<Book> restConnect = new JSONRestConnection<Book>(Book.class);
+
+	RestConnection<Book> restConnect = new JSONRestConnection<Book>(Book.class);
 
 You can post or get: object, list of object or your custom JSON String. 
