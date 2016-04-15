@@ -5,7 +5,8 @@ Bundle-SymbolicName: com.bartoszzychal.restconnection;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Export-Package: com.starterkit.bartoszzychal.restConnection,
  com.starterkit.bartoszzychal.restConnection.json,
- com.starterkit.bartoszzychal.restConnection.mapper
+ com.starterkit.bartoszzychal.restConnection.mapper,
+ com.starterkit.bartoszzychal.restConnection.mapper.json
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: com.fasterxml.jackson.core.jackson-annotations;bundle-version="2.5.0",
  com.fasterxml.jackson.core.jackson-databind;bundle-version="2.5.0",
