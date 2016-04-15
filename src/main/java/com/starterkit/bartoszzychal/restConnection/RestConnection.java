@@ -9,7 +9,7 @@ public interface RestConnection<T> {
 	T postOne(URL url,Charset charset,T object) throws Exception;
 	List<T> postList(URL url,Charset charset, List<T> objects) throws Exception;
 	String post(URL url,Charset charset, String json);
-	void post(String json,Charset charset, HttpURLConnection connection) throws Exception;
+	void post(String objectsString,Charset charset, HttpURLConnection connection) throws Exception;
 	
 	T getOne(URL url,Charset charset) throws Exception;
 	List<T> getList(URL url, Charset charset) throws Exception;
